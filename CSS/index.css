@@ -1,0 +1,199 @@
+  .body{
+    margin:0;
+    padding:0;
+    font-family:san-serif;
+    }
+
+    .banner{
+        width:100%;
+        height: 100vh;
+        background-image:linear-Gradient(rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.78)),url(../IMAGES/ws3.jpg);
+        background-size:cover;
+        background-position:center;
+        /* background-blend-mode:; */
+    } 
+    .navbar{
+        width:85%;
+        margin:auto;
+        padding:35px 0;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+    }
+    .logo{
+        width:120px;
+        cursor:pointer;
+        background:linear-Gradient(rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.78));
+    }
+    .navbar ul li{
+        list-style:none;
+        display:inline;
+        margin:0 20px;
+        padding:2px 4px;
+        position: relative;
+    }
+    .navbar ul li a{
+        text-decoration:none;
+        color:rgb(237, 231, 240);
+        text-transform:uppercase;
+    }
+    .loginbtn{
+        width:95px;
+        padding:15px 0;
+        text-align:center;
+        font-weight:bold;
+        border-radius:12px;
+        border:2px solid#72604c;
+        background:transparent;
+        color:#fff;
+        cursor:pointer;
+        position:relative;
+        overflow:hidden;
+        transition:0.5s;
+    }
+    span{
+        background:#72604c;
+        height:0%;
+        width:0%;
+        border-radius:25px;
+        position:absolute;
+        left:0;
+        bottom:0;
+        z-index:-1;
+        transition:0.5s;
+    }
+    .loginbtn:hover{
+        width:auto%;
+        background:#72604c;
+    }
+    .navbar ul li::after{
+        content:'';
+        height:2px;
+        width:0%;
+        background:#72604c;
+        position:absolute;
+        bottom:-3px;
+        left:0;
+        transition:0.5s;
+    }
+    .navbar ul li:hover::after{
+        width:100%;
+    }
+    .content{
+        width:50%;
+        position:absolute;
+        top:60%;
+        transform:translateY(-50%);
+        text-align:center;
+        color:#fff;
+    }
+    .content h1{
+        font-size:80px;
+        margin-top:80px;
+    }
+    .content p{
+        margin:20px auto;
+        font-weight:100;
+        line-height:35px;
+        font-size:30px;
+        color:rgb(242, 237, 245);
+    }
+    
+    #login-form{
+        display:none;
+        width:380px;
+        height:380px;
+        margin:2% auto;
+    }
+    .form-box{
+        width:380px;
+        height:480px;
+        position:relative;
+        margin:2% auto;
+        background:rgba(0, 0, 0, 0.78);
+        padding:10px;
+        overflow:hidden;
+    }
+    /*.button-box{
+        width:220px;
+        margin:35px auto;
+        position:relative;
+        box-shadow:0 0 20px 9px #2a024b1f;
+        border-radius:30px;
+    }
+    .toggle-btn{
+        padding:10px 30px;
+        cursor:pointer;
+        background:transparent;
+        border:0;
+        outline:none;
+        position:relative;
+    }
+    #btn{
+        top:0;
+        left:0;
+        position:absolute;
+        width:110px;
+        height:100%;
+        background:#f3c693;
+        border-radius:30px;
+        transition:0.5s;
+    }*/
+    .input-group-login{
+        top:100px;
+        position:absolute;
+        width:380px;
+       /* transition:0.5s;*/
+    }
+    /*.input-group-register{
+        top:120px;
+        position:absolute;
+        width:280px;
+        transition:0.5s;
+    }*/
+    .input-field{
+        width:80% ;
+        padding:10px 0;
+        margin:5px 0;
+        border-left:0;
+        border-right:0;
+        border-bottom:2px solid#fff;
+        border-top:0;
+        outline:none;
+        background:transparent;
+    }
+    .submit-btn{
+        width:80%;
+        padding:10px 30px;
+        cursor:pointer;
+        display:block;
+        margin:5px 0;
+        background:#72604c;
+        border:0;
+        outline:none;
+        border-radius:30px;
+    }
+    .check-box{
+        margin:30px 10px 34px 0;
+    }
+    /*R{
+        color:#fff;
+        font-size:16px;
+        bottom:68px;
+        position:absolute;
+        display:inline;
+    }*/
+    #login{
+        left:50px;
+    }
+    #login input{
+        color:white;
+        font-size:15;
+    }
+    /*#register{
+        left:450px;
+    }
+    #register input{
+        color:white;
+        font-size:15;
+    }*/
