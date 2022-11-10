@@ -1,7 +1,7 @@
   .body{
     margin:0;
     padding:0;
-    font-family:san-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
     .banner{
@@ -168,7 +168,7 @@
         cursor:pointer;
         display:block;
         margin:5px 0;
-        background:#72604c;
+        background:#b4ada4;
         border:0;
         outline:none;
         border-radius:30px;
@@ -197,3 +197,26 @@
         color:white;
         font-size:15;
     }*/
+
+
+
+    /* signup form  */
+
+
+    #signup-form{
+        display:block;
+        width:380px;
+        height:380px;
+        margin:2% auto;
+    }
+
+    #signup{
+        left:50px;
+    }
+    #signup input{
+        color:white;
+        font-size:15;
+    }
+    #rememberpass{
+        color: antiquewhite;
+    }

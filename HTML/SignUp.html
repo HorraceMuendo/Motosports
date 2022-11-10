@@ -26,21 +26,19 @@
       <!-- signup form -->
 
     </div>
-    <div id='login-form' class='login-page'>
+    <div id='signup-form' class='signup-page'>
       <div class="form-box">
         <div class='button-box'>
-          <div id="btn"></div>
-          <button type='button' onclick='login()' class='toggle-btn'>Register</button>
-        </div>
+
         <form id='signup' class='input-group-login'>
-          <input type='text' class='input-field' name="firstname" placeholder='firstname' required>
+          <input type='text' class='input-field' name="Firstname" placeholder='Firstname' required>
           <input type='text' class='input-field' name="Lastname" placeholder='Lastname' required>
-          <input type='text' class='input-field' name="email" placeholder='Email' required>
+          <input type='text' class='input-field' name="Email" placeholder='Email' required>
           <input type='password' class='input-field' name="password" placeholder='Enter Password' required><br>
-          <p style=color:#fff;>Don't have an account?<a href="sign in">sign in</a></p>
-          <input type='checkbox' class='check-box'>
-          <p id="R">Remember Password</p>
-          <button type='submit' class='submit-btn'>LOG IN</button>
+          <input type='password' class='input-field' name="confirmpassword" placeholder='confirmpassword' required><br>
+          <input type='checkbox' class='check-box'> <br>
+          <label for="checkbox" id="rememberpass">Remember password ?</label>
+          <button type='submit' class='submit-btn' onclick='register()'>signup</button>
         </form>
       </div>
     </div>
