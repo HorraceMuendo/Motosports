@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +12,7 @@
 <body>
     <div class="banner">
         <div class="navbar">
-            <img src="../IMAGES/av1.jpg"class="logo" >
+            <img src="../IMAGES/av1.jpg" class="logo">
             <ul>
                 <!-- <li><a href="#">HOME</a></li> -->
                 <li><a href="Home.html">Home</a></li>
@@ -20,31 +21,63 @@
                 <li><a href="ContactUs.html">CONTACT US</a></li>
                 <li><a href="AboutUs.html">About US</a></li>
 
-                <li><button class="loginbtn"onclick="document.getElementById('login-form').style.display='block'".style="width:auto;"><span></span>LOG IN</button></li>
+                <li><button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'"
+                        .style="width:auto;"><span></span>LOG IN</button></li>
             </ul>
         </div>
-           <div id='login-form'class='login-page'>
-              <div class="form-box">
+        <div id='login-form' class='login-page'>
+            <div class="form-box">
                 <div class='button-box'>
-               <div id="btn"></div>
-               <button type='button'onclick='login()'class='toggle-btn'>LOG IN</button>
-              </div> 
-              <form id='login'class='input-group-login'>
-               <input type='text'class='input-field' name="username"placeholder='Email'required>
-               <input type='password'class='input-field'name="password"placeholder='Enter Password'required><br>
-               <p style=color:#fff;>Don't have an account?<a href="sign in">sign in</a></p>
-               <input type='checkbox'class='check-box'><p id="R">Remember Password</p>
-               <button type='submit'class='submit-btn'>LOG IN</button>
-               
-              </form>
-                     </div>
+                    <div id="btn"></div>
+                    <button type='button' onclick='login()' class='toggle-btn'>LOG IN</button>
+                </div>
+                <form id='login' class='input-group-login'>
+                    <input type='text' class='input-field' name="username" placeholder='Email' required>
+                    <input type='password' class='input-field' name="password" placeholder='Enter Password'
+                        required><br>
+                    <p style=color:#fff;>Don't have an account?<a href="sign in">sign in</a></p>
+                    <input type='checkbox' class='check-box'>
+                    <p id="R">Remember Password</p>
+                    <button type='submit' class='submit-btn'>LOG IN</button>
+
+                </form>
+            </div>
+        </div>
+        <div class="content">
+            <h1><em>ContactUs</em></h1>
+
+
+
+            <form>
+                <div class="row g-3">
+                    <div class="col-6">
+                        <input type="text" class="form-control bg-light border-0 px-4" placeholder="Your Name" style="height: 55px;">
                     </div>
-          <div class="content">
-               <h1><em>ContactUs</em></h1>
-               <P>
-                <em>Urban Lease Bikes offers its customers a cheap,<br/>
-                    <br/>healthy, environmental friendly and <br/>
-                    <br/>time saving mode of transport</em></P>
-          </div>    </div>       
+                    <div class="col-6">
+                        <input type="email" class="form-control bg-light border-0 px-4" placeholder="Your Email" style="height: 55px;">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control bg-light border-0 px-4" placeholder="Subject" style="height: 55px;">
+                    </div>
+                    <div class="col-12">
+                        <textarea class="form-control bg-light border-0 px-4 py-3" rows="4" placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                    </div>
+                </div>
+            </form>
+
+
+
+
+            <!-- <P>
+                <em>Urban Lease Bikes offers its customers a cheap,<br />
+                    <br />healthy, environmental friendly and <br />
+                    <br />time saving mode of transport</em>
+            </P> -->
+        </div>
+    </div>
 </body>
+
 </html>

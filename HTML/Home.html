@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOTOcar</title>
+    <title>MOTOSPORTS</title>
     <link rel="stylesheet" href="../CSS/index.css">
 </head>
 
 <body>
     <div class="banner">
         <div class="navbar">
-            <img src="../IMAGES/av1.jpg"class="logo" >
+            <img src="../IMAGES/av1.jpg" class="logo">
             <ul>
-               
-                 <li><a href="Home.html">Home</a></li>
-                 <li><a href="PhotoGallery.html">PHOTOGALLERY</a></li>
-                 <li><a href="SignUp.html">SIGN UP</a></li>
-                 <li><a href="ContactUs.html">CONTACT US</a></li>
-                 <li><a href="AboutUs.html">About US</a></li>
 
-                <li><button class="loginbtn"onclick="document.getElementById('login-form').style.display='block'".style="width:auto;"><span></span>LOG IN</button></li>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="PhotoGallery.html">PHOTOGALLERY</a></li>
+                <li><a href="SignUp.html">SIGN UP</a></li>
+                <li><a href="ContactUs.html">CONTACT US</a></li>
+                <li><a href="AboutUs.html">About US</a></li>
+
+                <li><button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'"
+                        .style="width:auto;"><span></span>LOG IN</button></li>
             </ul>
         </div>
-           <div id='login-form'class='login-page'>
-              <div class="form-box">
-                <!-- <div class='button-box'>
-               <button type='button'onclick='login()'class='toggle-btn'>LOG IN</button>
-              </div>  -->
+        <div id='login-form' class='login-page'>
+            <div class="form-box">
+                <form id='login' class='input-group-login'>
+                    <input type='text' class='input-field' name="username" placeholder='Email' required>
+                    <input type='password' class='input-field' name="password" placeholder='Enter Password'
+                        required><br>
+                    <p style=color:#fff;>Don't have an account?<a href="SignUp.html">Register</a></p>
+                    <input type='checkbox' class='check-box'>
+                    <p id="R">Remember Password ?</p>
+                    <button type='submit' class='submit-btn'>LOG IN</button>
+                </form>
+            </div>
+        </div>
+        <div class="homecontent">
+            <h1><em>WELCOME TO MOTOSPORTS ENTERPRISE........</em></h1>
 
-              <form id='login'class='input-group-login'>
-               <input type='text'class='input-field' name="username"placeholder='Email'required>
-               <input type='password'class='input-field'name="password"placeholder='Enter Password'required><br>
-               <p style=color:#fff;>Don't have an account?<a href="SignUp.html">Register</a></p>
-               <input type='checkbox'class='check-box'><p id="R">Remember Password</p>
-               <button type='submit'class='submit-btn'>LOG IN</button>
-               
-              </form>
-                     </div>
-                    </div>
-          <div class="content">
-               <h1><em>Welcome to MOTOcar Enterprise</em></h1>
-               <P>
-                <em>Urban Lease Bikes offers its customers a cheap,<br/>
-                    <br/>healthy, environmental friendly and <br/>
-                    <br/>time saving mode of transport</em></P>
-          </div>    </div>       
+
+            <P>
+                <italic> <b id="where">Where we provide all automobile solutions </b> </italic><br />
+                    Our company is more focused on customer sartisfaction hence the need to provide cars with newer and more advanced features
+                     such as cruise control,heated leather seats,navigation systems and many more.
+            </P>
+        </div>
+    </div>
 </body>
+
 </html>

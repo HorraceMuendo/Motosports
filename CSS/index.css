@@ -220,6 +220,9 @@
     #rememberpass{
         color: antiquewhite;
     }
+    #R{
+        color: antiquewhite;
+    }
 
 
     /* about us page */
@@ -231,17 +234,39 @@
         /* transform:translateY(-50%); */
         text-align: left;
         color:#fff;
+        font-style: italic;
+        
     }
    
     .about h1{
         font-size:60px;
         margin-top:30px;
         text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
     }
-    .content p{
-        margin:20px auto;
-        font-weight:100;
-        line-height:35px;
-        font-size:30px;
-        color:rgb(242, 237, 245);
+
+
+    /* homepage */
+
+
+    .homecontent{
+        width:50%;
+        position: absolute;
+        top:50%;
+        transform:translateY(-50%);
+        text-align: left;
+        color:#fff;
+    }
+    .homecontent h1{
+        font-size:60px;
+        margin-top:30px;
+        text-align: center;
+        /* add italics on text */
+    }
+
+    #where{
+        font-style: italic;
+        font-size: larger;
+        margin-bottom: 80px;
     }
