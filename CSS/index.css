@@ -64,7 +64,7 @@
     }
     .loginbtn:hover{
         width:auto%;
-        background:#72604c;
+        background:#b4ada4;
     }
     .navbar ul li::after{
         content:'';
@@ -268,5 +268,5 @@
     #where{
         font-style: italic;
         font-size: larger;
-        margin-bottom: 80px;
+        
     }
